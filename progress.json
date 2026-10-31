@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "harness_version": "1.0.0",
-  "revision": 1,
-  "updated_at": "2026-10-30T14:58:14.659222+00:00",
+  "revision": 2,
+  "updated_at": "2026-10-31T05:23:25.101212+00:00",
   "active_task_id": null,
   "tasks": [
     {
@@ -197,9 +197,9 @@
       "verification": "not_run",
       "evidence": [],
       "blocker": null,
-      "next_action": "Await an explicit application implementation assignment; inspect owning code and prerequisites.",
-      "note": "Planned application work; not implemented by harness setup.",
-      "updated_at": "2026-10-30T14:51:00.851962+00:00"
+      "next_action": "Re-scope this legacy task into owning-repository implementation work using the current two-mode interview contract before starting it.",
+      "note": "Legacy planned task retained for revision history. Current interview behavior is defined by context/decisions.md and context/product-contract.md: OpenAI Realtime quick screening with consented 3.5-second silence auto-submit and manual backup; typed answers remain explicit; AssemblyAI is used for human-interview transcription/translation.",
+      "updated_at": "2026-10-31T05:23:25.101212+00:00"
     },
     {
       "id": "AWS-001",

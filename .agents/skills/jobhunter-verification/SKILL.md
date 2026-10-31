@@ -26,7 +26,7 @@ Discover and run the owning repository's supported checks for the requested chan
 - Evidence coverage, exact citations, missing/conflicting evidence, untrusted-source commands, and absence of scores or candidate decisions.
 - Runtime branch dependencies, partial reports, cancellation/interruption, unavailable capabilities, restart/resume, and changed/deleted-source invalidation.
 - Odoo installation/upgrade, permissions and company isolation, real identifiers, and coexistence restricted to enabled harness jobs.
-- English AssemblyAI STT/TTS, English/Vietnamese typed answers, audio consent, transcript review and explicit submission, provider failure, and no false interview completion.
+- Interview's bounded Orchestrator assignment and typed handoff without specialist dispatch or overall-status ownership; quick-screening Company/JD/CV grounding, English OpenAI Realtime voice, audio consent, final-segment auto-submit after 3.5 seconds of silence, timer reset/deduplication and manual backup; English/Vietnamese typed review and explicit submission; AssemblyAI human-interview transcription/translation, attributed transcript/rubric-grounded follow-ups and feedback, provider failure, playback/echo exclusion and no false interview completion.
 - ECS deployment traceability, external checkpoint durability, health checks, rollback, and actual Odoo connectivity.
 
 The user's ARTEMIS exploration rules apply before authoring **native mobile tests**. Ordinary web/backend/harness checks do not require a mobile device. If a later assignment introduces native mobile testing, read the applicable user rules, use ARTEMIS to observe the target flow before writing test code, and diagnose ARTEMIS failures rather than guessing.

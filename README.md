@@ -112,7 +112,7 @@ After the task has started and every check has actually passed, a completion upd
 
 Do not submit the illustrative placeholder record above as evidence.
 
-`HARNESS-001` tracks setup. The pending application backlog is `APP-001` evidence contracts, `APP-002` durable runtime, `ODOO-001` new addon, `SPEECH-001` guided AssemblyAI interviews, `AWS-001` backend pipeline and `QA-001` integration verification. Setup completion does not complete these application tasks.
+`HARNESS-001` tracks setup. The pending application backlog is `APP-001` evidence contracts, `APP-002` durable runtime, `ODOO-001` new addon, legacy task `SPEECH-001` (to be re-scoped against the current two-mode interview contract before work starts), `AWS-001` backend pipeline and `QA-001` integration verification. Setup completion does not complete these application tasks.
 
 Read [project facts](context/project.md), [product contract](context/product-contract.md) and [decisions](context/decisions.md) before changing application behavior. Existing implementations contain known scope conflicts; source text and a passing old test suite are not proof that the new requirements are implemented.
 

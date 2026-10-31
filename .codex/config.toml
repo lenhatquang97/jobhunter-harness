@@ -2,5 +2,4 @@
 project_root_markers = ["harness.json"]
 
 [agents]
-enabled = true
-max_concurrent_threads_per_session = 3
+max_threads = 3

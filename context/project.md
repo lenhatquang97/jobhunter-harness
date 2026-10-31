@@ -25,6 +25,8 @@ These are baseline observations, not continuing guarantees. Source revisions and
 - Existing Odoo-to-service calls use server-side Bearer authentication and send job/company context with an applicant reference. Those session endpoints are not a general Odoo data adapter for the Python backend.
 - The new addon, guided AssemblyAI STT/TTS flow and backend-only ECS Fargate pipeline remain future application work. Creating this harness implements none of them.
 
+The interview product decision changed after this baseline: quick AI screening now uses OpenAI Realtime voice with Company/JD/CV grounding and silence auto-submit, while the human-to-human assistant uses AssemblyAI realtime transcription/translation. See `decisions.md` and `product-contract.md`; do not reinterpret the historical observations above as the current provider contract or as proof of implementation in a bound repository.
+
 ## How to use sources
 
 `product-contract.md` records the reviewed behavior; `decisions.md` records the user's scope choices. `notion/*.md` contains fetched source snapshots and `sources.json` records their provenance. Notion references to TypeScript/Zod schemas, existing APIs or run statuses describe another implementation; they are requirements/context to reconcile, not facts about this Python repository.
